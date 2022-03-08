@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Dialog Boxes</h1>
+	<div><button id="a1" onclick="openAlert()">Alert</button></div>
+	<div><button id="c1" onclick="openConfirm()">Confirm</button></div>
+	<div><button id="p1" onclick="openPrompt()">Prompt</button></div>
+	<div><a href='http://www.google.com' target="_blank">Google</a></div>
+	<div><a href='https://www.techgatha.com'>Techgatha</a></div>
+	<script type="text/javascript">
+		
+	 function openAlert()
+	 {
+		 alert('This is alert')
+	 }
+	
+	 function openConfirm()
+	 {
+		 var res = confirm('Please confirm');
+		 alert(res);
+	 }
+	</script>
+</body>
+</html>
